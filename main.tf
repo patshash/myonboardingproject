@@ -6,7 +6,7 @@ variable "oauthid" {}
 //--------------------------------------------------------------------
 // Modules
 module "onboarding" {
-  source  = "tfe.patrick.azure.hashidemos.io/dryrun/onboarding/tfe"
+  source  = "tfe.patrick.azure.hashidemos.io/sharedservices/onboarding/tfe"
   version = "0.0.11"
 
   hostname = "tfe.patrick.azure.hashidemos.io"
