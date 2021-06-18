@@ -11,7 +11,7 @@ module "onboarding" {
 
   hostname = "tfe.patrick.azure.hashidemos.io"
   oauthid = "${var.oauthid}"
-  organisation = "patrickorg"
-  project_name = "mynewproject"
+  organisation = "app-team-1"
+  project_name = "digitaltransformation"
   token = "${var.onboarding_token}"
 }
